@@ -1,0 +1,7 @@
+frontend:
+  container_name: frontend-final-year
+  build: ./tomcat
+  ports:
+    - "8000:8080"
+  volumes:
+    - ./build/libs/final-year.war:/usr/local/tomcat/webapps/ROOT.war
