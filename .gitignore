@@ -2,3 +2,5 @@
 out
 logs
 .gradle
+build/
+.DS_Store
