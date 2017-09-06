@@ -24,7 +24,6 @@ public class JerseyApplication extends ResourceConfig {
 
   private void loadConfigurationValues() {
 
-    FileValuesConfiguration configuration = new FileValuesConfiguration();
-    configuration.getValues();
+    new FileValuesConfiguration().setValuesFromConfigurationFile();
   }
 }
